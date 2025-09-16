@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Port_folio, kawser, html">
+  <meta name="author" content="Kawser">
+  <meta name="description" content="etc">
     <title>Sabbir Ahamed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
    <!--link tag relative-->
@@ -12,10 +17,9 @@
     <li>
       <a href="../Link/Home.html">Home</a>
     </li>
-    <li> <a href="../Link/contract.html">Contract Us</a>
-   </li>
-   <li><a type="-blank" href="About.html" title="Know about us">About Us</a></li>
-  <li>
+    <li> 
+      <a href="../Link/contract.html">Contract Us</a>
+    </li>
     <a href="#district">District name</a>
   </li>
   </ul>
@@ -53,7 +57,8 @@
     h<sub>2</sub><br><br>
     <a href="https://www.youtube.com/watch?v=gqvrn5R8tzc&list=PLgH5QX0i9K3pShEf_RCcVqPKxFm7sOLVD&index=7">
       <img src="5.jpg" alt="Bus image" width="150">
-    </a>
+    </a><br>
+    <p>image to vedio link system</p>
     
 
     <!--order list with number-->
@@ -107,17 +112,119 @@
         <li>Khulna</li>
       </ul>
     </section>
+
+    <!--table function-->
+    
+         
+    <table border="3" cellmargin="2" cellspacing="0">
+         <thead>
+        <tr>
+          <th>Option</th>
+          <th>Expert</th>
+          <th>experience</th>
+        </tr>
+      </thead>
+      <body>
+        <tr>
+          <td>CCS  </td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>No</td>
+          <td>Yes</td>
+        </tr>
+      </body>
+    </table>
     <!--link tag Absolute-->
+   <div>
     <a target="-blank" href="https://github.com/Sabbir-191/portfolio-html">My github</a>
+   </div><br>
+<video width="250" controls s>
+  <source rc="https://www.youtube.com/shorts/Y7iB9uYF6AU">
+  your browser do not support this type vedio</video>
+    <!--form function-->
+  <h2>Contract Us</h2>
+    <form  action="https://formspree.io/f/movnzovz"
+  method="POST">
+     
+    <div>
+      <label for="Name">Name</label>
+    <input type="text" name="Name" id="Name" required>
+    </div>
+   
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required><br> 
+   <div>
+     <label for="message">message</label>
+     <textarea name="message" id="message"></textarea>
+   </div>
+    
+    <div>
+      <label for="subject">Subject</label>
+      <select name="subject" id="">
+      <option value="subject">Dhaka</option>
+      <option value="subject">Mymensingh</option>
+      <option value="subject">Khulna</option>
+      <option value="subject">Sylhet</option>
+      </select> 
+  </div>
+  <div>
+    <label for="age">Age</label>
+   <select name="age" id="">
+     <option type="number" value="subject">15</option>
+     <option type="number" value="subject">20</option>
+      <option type="number" value="subject">30</option>
+       <option type="number" value="subject">35</option>
+  </select>
+  </div>
 
-
+<div>
+  <label for="age">Age minimum & Maximum</label>
+  <input type="number" name="age" id="age" min="18" max="35">
+</div>
+<div>
+  <label for="website"> Website</label>
+  <input type="URL" name="website" id="website"
+  pattern="http?://.+" required/>
+</div>
+<div>
+  <label for="image">Upload Image:</label>
+  <input type="file" name="image" id="image" accept="image/*">
+</div>
+ <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+    </form>
+    <!--Progress tag-->
+  <div>  <h3>Skill Progress</h3>
+    <label for="Htmlprogress">HTML:</label>
+     <progress id="Htmlprogress" value="90" max="100">90%</progress>
+    </div>
+    <div> 
+    <label for="css">CSS :</label>
+     <progress id="css" value="50" max="100">50%</progress>
+    </div>
+    <div>
+      <label for="Javascript">Javascript :</label>
+      <progress itemref="Javascritpt" value="80" max="100">90%</progress>
+    </div>
     <!--footer-->
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i></a>
+      </li>
+    </ul>
     <br><a href="tel:01925101864">Call me</a><br>
     <a href="#number">Cell Number</a><br>
 <a href="mailto:sabbir.ahamed.kawser191@gmail.com">Email me</a>
 <p>copyright reserved by Kawser@2025</p>
-
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7303.025752610479!2d90.41625129176916!3d23.764744314642126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8783ab9882f%3A0x50f429f46d937f3c!2sRampura%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1758022102619!5m2!1sen!2sbd" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </body>
-    
-    
-</html>
+  </html>
